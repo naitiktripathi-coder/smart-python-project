@@ -88,7 +88,7 @@ if send == "send" or send== "SEND" or send== "Send" :
     print("Status: Delivered ✅")
 elif send == "cancel" or send== "CANCEL" or send== "Cancel" :
     print("\n❌ Email Cancelled")
-    sus.exit
+    sys.exit()
 
 else:
     print("\n⚠️ Invalid option                                Sorry please try again ")
