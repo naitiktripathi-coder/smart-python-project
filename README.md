@@ -10,6 +10,8 @@ Welcome to the **Smart Area Calculator** project! This project allows users to c
 - User-friendly interface
 - Real-time calculation
 
+
+# 🎮 E-Mail Simulator 🎮
 E-Mail Simulator
 This simulator is created for educational and entertainment purposes only.
 Function:
@@ -56,6 +58,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact:
 For any inquiries, please contact naitiktripathi-coder@gmail.com.
 
+
+# 🎮 ROCK PAPER SCISSOR GAME 🎮
 Rock Paper Scissor Game
 A simple command-line Rock Paper Scissor game built using Python.
 This project is designed for learning Python basics, logic building, and entertainment.
