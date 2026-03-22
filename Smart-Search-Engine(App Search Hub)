@@ -1,0 +1,52 @@
+import webbrowser
+import sys
+from colorama import Fore,Back,Style,init
+init(autoreset= True)
+print(Fore.BLUE+Back.WHITE+Style.BRIGHT+"WELCOME TO APP SEARCH HUB 🚀 ")
+print("-"*60)
+while True :
+	print(Fore.RED+Back.WHITE+Style.BRIGHT+"YouTube  ▶   ")
+	print("•"*15)
+	print(Fore.CYAN+Back.WHITE+"Facebook  📘  ")
+	print("•"*15)
+	print(Fore.BLACK+Back.YELLOW+"SnapChat  👻  ")
+	print("•"*15)
+	print(Fore.WHITE+Back.MAGENTA+Style.BRIGHT+"Instagram  📸 ")
+	print("•"*15)
+	print(Fore.BLACK+Back.WHITE+"GitHub  🐙 💻  ")
+	print("•"*15)
+	app= input(Fore.MAGENTA+Style.BRIGHT+Back.WHITE+"Type the name of the app which you want to explore , (if you want to exit then press E)=:"+Fore.BLUE+Back.WHITE+Style.BRIGHT).lower()
+	if app== "youtube" :
+		search= input(Fore.YELLOW+Style.BRIGHT+"SEARCH=:  "+Fore.BLUE+Style.BRIGHT+Back.WHITE)
+		url= "http://www.youtube.com/results?search_query=" + search
+		webbrowser.open(url)
+		print(Fore.BLUE+Style.BRIGHT+Back.WHITE+"OPENING....")
+		
+	elif app== "facebook" :
+		search= input(Fore.YELLOW+Style.BRIGHT+"SEARCH=:  "+Fore.BLUE+Style.BRIGHT+Back.WHITE)
+		url= "http://www.facebook.com/results?search_query=" + search
+		webbrowser.open(url)
+		print(Fore.BLUE+Style.BRIGHT+Back.WHITE+"OPENING....")
+		
+	elif app== "snapchat" :
+		search= input(Fore.YELLOW+Style.BRIGHT+"SEARCH=:  "+Fore.BLUE+Style.BRIGHT+Back.WHITE)
+		url= "http://www.snapchat.com/results?search_query=" + search
+		webbrowser.open(url)
+		print(Fore.BLUE+Style.BRIGHT+Back.WHITE+"OPENING....")
+	elif app== "instagram" :
+		search= input(Fore.YELLOW+Style.BRIGHT+"SEARCH=:  "+Fore.BLUE+Style.BRIGHT+Back.WHITE)
+		url= "http://www.instagram.com/resuts?search_query=" + search
+		webbrowser.open(url)
+	elif app== "github" :
+		search= input(Fore.YELLOW+Style.BRIGHT+"SEARCH=:  "+Fore.BLUE+Style.BRIGHT+Back.WHITE)
+		url= "http://www.github.com/results?search_query=" + search
+		webbrowser.open(url)
+		print(Fore.BLUE+Style.BRIGHT+Back.WHITE+"OPENING....")
+	elif app== "e" :
+		print(Fore.YELLOW+Style.BRIGHT+"Thank You for using our programe ")
+		print(Fore.GREEN+Style.BRIGHT+" VISIT US AGAIN ")
+		sys.exit()
+	else :
+		print(Fore.RED+Style.BRIGHT+"NO APP FOUND...................please try again")
+	print("•"*60)		
+	
