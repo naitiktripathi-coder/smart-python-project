@@ -104,3 +104,68 @@ Author
 Naitik Tripathi
 "Thank you for giving us your precious time." 🌿
 
+
+# 🚀 Smart Search Engine (App Search Hub)
+
+A simple and fun Python-based app that allows users to search directly on popular platforms like YouTube, Facebook, Instagram, GitHub, and Snapchat from the terminal.
+
+---
+
+## 🌟 Features
+
+- 🔍 Search directly on:
+  - ▶️ YouTube
+  - 📘 Facebook
+  - 📸 Instagram
+  - 🐙 GitHub
+  - 👻 Snapchat
+- 🎨 Colorful terminal UI using `colorama`
+- 🔁 Infinite loop (search again and again)
+- ❌ Error handling for invalid input
+- 🚪 Exit option
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- `webbrowser` module
+- `colorama` for styling
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Smart-Search-Engine.git
+
+requirement= pip install colorama
+
+▶️ How to Run
+python Smart-Search-Engine (App Search Hub).py
+
+
+💡 How It Works
+User selects an app (YouTube, Facebook, etc.)
+Enters a search query
+Program opens the browser with search results
+
+Example :
+Type the app: youtube  
+Search: python tutorial  
+→ Browser opens YouTube search results
+
+🚀 Future Improvements
+⭐ Save search history
+🎤 Voice search
+📱 GUI version
+🔐 Add login-based APIs
+🤝 Contribution
+Feel free to fork this project and improve it!
+📌 Author
+Made with ❤️ by [Naitik Tripathi]
+
+📜 License
+This project is free to use.
