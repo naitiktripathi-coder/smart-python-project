@@ -49,8 +49,8 @@ Contributions are welcome! Please create a pull request with your proposed chang
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact:
-For any inquiries, please contact naitiktripathi-coder@gmail.com.
+## 📬 Contact:
+For any queries, feel free to open an issue on this repository.
 
 
 # 🎮 E-Mail Simulator 🎮
@@ -81,8 +81,8 @@ Naitik Tripathi
    ```
 3. Install the necessary dependencies:
    ```bash
-4. No any requirement needed to install from pip
-   ```bash
+   No any requirement needed to install from pip
+   ```
 
 ## Usage:
 1. Run the main script:
@@ -97,8 +97,8 @@ Contributions are welcome! Please create a pull request with your proposed chang
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact:
-For any inquiries, please contact naitiktripathi-coder@gmail.com.
+## 📬 Contact:
+For any queries, feel free to open an issue on this repository.
 
 
 # 🎮 ROCK PAPER SCISSOR GAME 🎮
@@ -180,9 +180,8 @@ Contributions are welcome! Please create a pull request with your proposed chang
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact:
-For any inquiries, please contact naitiktripathi-coder@gmail.com.
-
+## 📬 Contact:
+For any queries, feel free to open an issue on this repository.
 
 
 # 🚀 Smart Search Engine (App Search Hub)
@@ -282,5 +281,6 @@ Contributions are welcome! Please create a pull request with your proposed chang
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Contact:
-For any inquiries, please contact naitiktripathi-coder@gmail.com.
+## 📬 Contact
+
+For any queries, feel free to open an issue on this repository.
