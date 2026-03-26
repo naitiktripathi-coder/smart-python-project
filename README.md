@@ -1,6 +1,6 @@
 # Smart Area Calculator
 
-Welcome to the **Smart Area Calculator** project! This project allows users to calculate the area of various geometric shapes, providing an easy-to-use interface and accurate calculations.
+Welcome to the **Smart Area Calculator** project! This project allows users to calculate the area and perimeter of various geometric shapes, providing an easy-to-use interface and accurate calculations.
 
 ## Features:
 - Calculate the AREA and PERIMETER(after upgrading the program (only for fun,no money is debited you can enter any fake Gmail but in the order, for example., xyz@gmail.com))of different shapes including:
