@@ -3,12 +3,54 @@
 Welcome to the **Smart Area Calculator** project! This project allows users to calculate the area of various geometric shapes, providing an easy-to-use interface and accurate calculations.
 
 ## Features:
-- Calculate the area of different shapes including:
+- Calculate the AREA and PERIMETER(after upgrading the program (only for fun,no money is debited you can enter any fake Gmail but in the order, for example., xyz@gmail.com))of different shapes including:
   - Rectangle
   - Triangle
   - Square
 - User-friendly interface
 - Real-time calculation
+- Upgrade option
+- Real Gmail security (verifies the GMail)
+- OTP (One Time Password) System by using RANDOM 
+- Verifies The OTP
+- You can also find PERIMETER of any solid present in the content 
+- Feedback System 
+
+"Be a part of nature 🌄🌅🏞️⛺🌀"
+"Thank you for giving us your precious time."
+Author:
+Naitik Tripathi
+
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/naitiktripathi-coder/smart-python-project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd smart-python-project
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.colorama
+   ```
+
+## Usage:
+1. Run the main script:
+   ```bash
+   python main.py
+   ```
+2. Follow the on-screen instructions to use the programme by selecting the shape present in the content and input the necessary side length.
+
+## Contribution:
+Contributions are welcome! Please create a pull request with your proposed changes.
+
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact:
+For any inquiries, please contact naitiktripathi-coder@gmail.com.
 
 
 # 🎮 E-Mail Simulator 🎮
@@ -47,7 +89,7 @@ Naitik Tripathi
    ```bash
    python main.py
    ```
-2. Follow the on-screen instructions to select a shape and input the necessary dimensions.
+2. Follow the on-screen instructions to use the email simulator by writing information (fake , as you want )
 
 ## Contribution:
 Contributions are welcome! Please create a pull request with your proposed changes.
@@ -65,6 +107,7 @@ A simple command-line Rock Paper Scissor game built using Python.
 This project is designed for learning Python basics, logic building, and entertainment.
 Description
 This program allows a user to play the classic Rock, Paper, Scissor game against the computer.
+It gives 10 chances to the user and computer.
 The computer randomly selects its choice, and the program determines the winner based on the rules of the game.
 The game also uses colored terminal output to make the experience more interactive and visually appealing.
 Features
@@ -100,6 +143,7 @@ Computer Chose: paper
 Computer Win 🤖
 Your Score: 0
 Computer Score: 1
+
 Author
 Naitik Tripathi
 "Thank you for giving us your precious time." 🌿
@@ -139,7 +183,7 @@ A simple and fun Python-based app that allows users to search directly on popula
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/Smart-Search-Engine.git
+git clone https://github.com/naitiktripathi-coder/Smart-Search-Engine.git
 
 requirement= pip install colorama
 
