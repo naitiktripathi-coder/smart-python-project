@@ -81,8 +81,8 @@ Naitik Tripathi
    ```
 3. Install the necessary dependencies:
    ```bash
-   pip install -r requirements.colorama
-   ```
+4. No any requirement needed to install from pip
+   ```bash
 
 ## Usage:
 1. Run the main script:
@@ -147,6 +147,42 @@ Computer Score: 1
 Author
 Naitik Tripathi
 "Thank you for giving us your precious time." 🌿
+"Be a part of nature 🌄🌅🏞️⛺🌀"
+"Thank you for giving us your precious time."
+Author:
+Naitik Tripathi
+
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/naitiktripathi-coder/smart-python-project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd smart-python-project
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.colorama
+   ```
+
+## Usage:
+1. Run the main script:
+   ```bash
+   python main.py
+   ```
+2. Follow the on-screen instructions to use the 🎮 ROCK PAPER SCISSOR GAME 🎮
+
+## Contribution:
+Contributions are welcome! Please create a pull request with your proposed changes.
+
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact:
+For any inquiries, please contact naitiktripathi-coder@gmail.com.
+
 
 
 # 🚀 Smart Search Engine (App Search Hub)
@@ -213,3 +249,38 @@ Made with ❤️ by [Naitik Tripathi]
 
 📜 License
 This project is free to use.
+"Be a part of nature 🌄🌅🏞️⛺🌀"
+"Thank you for giving us your precious time."
+Author:
+Naitik Tripathi
+
+
+## Installation:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/naitiktripathi-coder/smart-python-project.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd smart-python-project
+   ```
+3. Install the necessary dependencies:
+   ```bash
+   pip install -r requirements.colorama
+   ```
+
+## Usage:
+1. Run the main script:
+   ```bash
+   python main.py
+   ```
+2. Follow the on-screen instructions to use the Smart-Search-Engine (App Search Hub).py
+
+## Contribution:
+Contributions are welcome! Please create a pull request with your proposed changes.
+
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact:
+For any inquiries, please contact naitiktripathi-coder@gmail.com.
