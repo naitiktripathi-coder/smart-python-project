@@ -1,0 +1,83 @@
+import turtle
+import time
+import requests
+import tkinter as tk
+s = turtle.Screen()
+t = turtle.Turtle()
+s.bgcolor("black")
+t.width(8)
+t.speed(0)
+
+col = ("magenta", "blue", "cyan")
+start_time = time.time()
+
+for i in range(500):
+    if time.time() - start_time > 5:
+        break
+        
+    t.pencolor(col[i % 3])
+    t.forward(i * 4)
+    t.right(142)
+s.bye() 
+
+# Yahan se aap apna agla program
+def start() :
+	root.destroy()
+root= tk.Tk()
+root.geometry("300x200")
+label= tk.Label(root, text=" CLICK START BUTTON TO EXPLORE THE APP ")
+label.pack()
+label2= tk.Label(root, text=" WORDS   MART ", fg="blue",bg="red")
+label2.pack(pady= 20)
+bttun= tk.Button(root, text=" START ",fg="green", command= start)
+bttun.pack(pady= 40)
+root.mainloop()
+# Yahan se aap apna agla program
+def search() :
+	word= entry.get().strip()
+	url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word
+
+	response = requests.get(url)
+
+	if response.status_code == 200:
+		data = response.json()
+		meaning = data[0]['meanings'][0]['definitions'][0]['definition']
+		try :
+			pronounciation= data[0]['phonetics'][0]['text']
+		except :
+			pronounciation=""
+    
+		style= resultlabel.config(text="Meaning=:" + meaning + "PRONOUNCIATION=: "+ pronounciation)
+	else:
+		resultlabel.config(text="WORD NOT FOUND")
+
+root= tk.Tk()
+root.geometry("300x200")
+
+label1= tk.Label(root, text="  WORDS  MART  ", fg="blue",bg="red", font= ("Impact", 20))
+label1.pack(pady= 20)
+
+label2= tk.Label(root, text="YOU CAN SEARCH MEANING OF ANY WORD ",font=("Georgia",8))
+label2.pack(pady= 20,padx= 20)
+
+entry= tk.Entry(root)
+entry.pack(pady= 30, padx= 10)
+
+button= tk.Button(root, text="SEARCH",fg="cyan",command=search)
+button.pack(pady= 20)
+
+
+
+resultlabel= tk.Label(root, text="", wraplength= 650,justify= "left")
+resultlabel.pack(pady= 20,padx= 20)
+
+label4= tk.Label(root, text="", fg="blue", font= ("Verdana", 5), justify= "left")
+label4.pack(pady=200,padx= 40)
+label5= tk.Label(root, text="•  Teacher's  Choice. 			 •Infinity search , No limitation.                        •'Words Mart' can make mistakes , if there is any issue or bugs then  please create an issue on this repository=: smart-python-projects in GitHub. ", fg="blue", font= ("Verdana", 5), justify= "left",wraplength= 400)
+label5.pack(pady= 100,padx= 20)
+label6= tk.Label(root, text="Don't forget to follow ' naitiktripathi-coder ' on GitHub", fg="blue", font= ("Verdana", 6), justify= "left")
+label6.pack(pady=5)
+label7= tk.Label(root, text="------THANK YOU------", fg="green", font= ("Verdana", 6), justify= "left")
+label7.pack()
+root.mainloop()
+
