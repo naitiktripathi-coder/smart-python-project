@@ -284,3 +284,94 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📬 Contact
 
 For any queries, feel free to open an issue on this repository.
+
+
+
+🚀 Words Mart
+
+Words Mart is a simple yet powerful Python GUI application that lets you search the meaning and pronunciation of any English word — all in a clean and interactive interface.
+
+🌟 Features
+
+✨ Search meaning of any English word🔊 Displays pronunciation (if available)🎨 Simple and clean GUI using tkinter🎬 Eye-catching turtle animation intro⚡ Fast and easy to use
+
+🛠️ Tech Stack
+
+🐍 Python
+
+🖼️ tkinter (GUI)
+
+🌐 requests (API handling)
+
+🐢 turtle (animation)
+
+📸 Preview
+
+A simple GUI app with search box, button, and instant results.
+
+▶️ How to Run
+
+Install required library:
+
+pip install requests
+
+Run the program:
+
+python main.py
+
+📂 Project Structure
+
+Words-Mart/
+│
+├── main.py        # Main application file
+├── README.md      # Project documentation
+
+⚠️ Note
+
+Internet connection is required 🌐
+
+Some words may not have pronunciation
+
+💡 Future Improvements
+
+🔊 Add audio pronunciation button
+
+🎨 Improve UI design (dark mode)
+
+📋 Copy to clipboard feature
+
+📱 Convert into mobile app
+
+🤝 Contributing
+
+Contributions are welcome!
+
+If you find any bug or want to suggest improvements:
+
+👉 Go to the repository👉 Click on Issues👉 Create a new issue
+
+⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
+
+👨‍💻 Author
+
+Made with ❤️ by Naitik Tripathi
+
+🙌 Acknowledgment
+
+This project is built for learning and practice purposes.
+
+📢 Disclaimer
+
+This app may occasionally give incorrect results. Always verify important information.
+
+Code Working Structure :
+Turtle(live logo of star)
+GUI based interface(asking to start)
+GUI based interface having search area , button(here you can write the word which you want to search to know it's meaning and pronounciation), logo of the app (Words  Mart).
+Humble request = If you find any bug. then feel free to create issue on this repository 😊.
+
+Be Happy 😊, Keep people Happy 😁.
+Be the part of Nature 🏞️🏕️🌄🌅🌤️🌃.
+🚀 Happy Coding!
