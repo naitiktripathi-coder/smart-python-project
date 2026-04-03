@@ -20,19 +20,19 @@ for i in range(500):
     t.right(142)
 s.bye() 
 
-# Yahan se aap apna agla program
+# Yahan se apna agla program
 def start() :
 	root.destroy()
 root= tk.Tk()
 root.geometry("300x200")
 label= tk.Label(root, text=" CLICK START BUTTON TO EXPLORE THE APP ")
 label.pack()
-label2= tk.Label(root, text=" WORDS   MART ", fg="blue",bg="red")
+label2= tk.Label(root, text=" WORDS   MART ", fg="blue",bg="red",font= ("Impact", 20))
 label2.pack(pady= 20)
 bttun= tk.Button(root, text=" START ",fg="green", command= start)
 bttun.pack(pady= 40)
 root.mainloop()
-# Yahan se aap apna agla program
+# Yahan se apna agla program
 def search() :
 	word= entry.get().strip()
 	url = "https://api.dictionaryapi.dev/api/v2/entries/en/" + word
