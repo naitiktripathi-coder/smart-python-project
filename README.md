@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/naitiktripathi-coder/naitiktripathi-coder/raw/main/Gemini_Generated_Image_xlmkgixlmkgixlmk.png" width="100%" />
+</p>
+
 # Smart Area Calculator
 
 Welcome to the **Smart Area Calculator** project! This project allows users to calculate the area and perimeter of various geometric shapes, providing an easy-to-use interface and accurate calculations.
