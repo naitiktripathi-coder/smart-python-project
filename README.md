@@ -379,3 +379,123 @@ Humble request = If you find any bug. then feel free to create issue on this rep
 Be Happy 😊, Keep people Happy 😁.
 Be the part of Nature 🏞️🏕️🌄🌅🌤️🌃.
 🚀 Happy Coding!
+
+
+
+🐍 python-interpreter_GUI
+
+A simple Python code editor and interpreter built with Python + Tkinter.
+
+This project allows you to write Python code, execute it, save it as a ".py" file, and open saved Python files again.
+
+✨ Features
+- 🖼️ Easily interprets the GUI codes such as tkinter files 
+- 🤗 Ignores the minor mistakes in the tkinter or other GUI codes
+- 📝 Python code writing area
+- ▶️ Execute Python code
+- 🤳 Automatic fills the file extension on saving and opening (automatically finds the file with extension ".py" 
+- 💾 Save Python files
+- 📂 Open saved Python files
+- 🧹 Clear the writing area
+- 🌙 Dark Mode
+- 🔒 Lock Writing Pad
+- ✍️ Italic Font option
+- ⚙️ Settings window
+- ❌ Exit confirmation
+- ⚠️ Error messages for invalid operations
+
+🛠️ Built With
+
+- 🐍 Python
+- 🖥️ Tkinter
+- 📁 OS module
+
+🚀 How to Run
+
+Make sure Python is installed.
+
+Run:
+
+python main.py
+
+🖥️ How to Use
+
+▶️ Execute Code
+
+Write Python code in the editor and press:
+
+EXECUTE
+
+For example:
+
+print("Hello, World!")
+
+💾 Save File
+
+Press SAVE, enter a file name, and press CREATE (no need to fill the extension name ".py" )
+
+The program saves the code as:
+
+filename.py
+
+📂 Open File
+
+Press OPEN, enter the file name without ".py", and press OPEN.
+
+Example:
+
+filename
+
+The saved Python code will be loaded into the editor.
+
+🌙 Dark Mode
+
+Open SETTING and enable Dark Mode to change the editor background and text colour.
+
+🔒 Lock Writing Pad
+
+The Writing Pad can be locked from the Settings window to prevent editing.
+
+✍️ Italic Font
+
+Enable Italic from Settings to change the editor font style.
+
+❌ Exit
+
+The Settings window contains an Exit button with a confirmation dialog before closing the interpreter.
+
+📸 Screenshot
+The current version' editing interface looks like the following illustration.
+screenshot.png
+
+📁 Project Structure
+
+Mini-Python-Interpreter/
+│
+├── main.py
+├── screenshot.png
+└── README.md
+
+🔮 Future Improvements
+
+Possible future features:
+
+- 🔢 Line numbers
+- 🎨 Python syntax highlighting
+- 📋 Output console
+- 📄 New File option
+- 💾 Save As
+- 🔎 Find and Replace
+- ⌨️ Keyboard shortcuts
+- 🎨 More themes
+
+👨‍💻 Author
+
+Naitik Tripathi
+
+Learning Python by building projects.
+
+---
+
+⭐ If you find this project interesting, feel free to explore the code and improve it!
+
