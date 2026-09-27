@@ -467,7 +467,7 @@ The Settings window contains an Exit button with a confirmation dialog before cl
 📸 Screenshot
 The current version' editing interface looks like the following illustration :
 
-![python-interpreter_GUI](screenshot.png..png)
+![python-interpreter_GUI](screenshot.png.png)
 
 📁 Project Structure
 
