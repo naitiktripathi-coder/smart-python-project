@@ -465,8 +465,9 @@ Enable Italic from Settings to change the editor font style.
 The Settings window contains an Exit button with a confirmation dialog before closing the interpreter.
 
 📸 Screenshot
-The current version' editing interface looks like the following illustration.
-screenshot.png
+The current version' editing interface looks like the following illustration :
+
+![python-interpreter_GUI](screenshot.png..png)
 
 📁 Project Structure
 
